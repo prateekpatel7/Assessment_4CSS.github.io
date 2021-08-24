@@ -1,0 +1,236 @@
+.heading{
+    text-align: center;
+    text-decoration: underline;
+    background-image : linear-gradient(to right, red 5% , green 25% ,yellow 90% );
+}
+.list{
+    border: 5px solid red;
+    height: 80px;
+    width: 800px;
+    text-align: center;
+    position: absolute;
+    left: 315px;
+    margin: auto;
+    padding: 0px;
+    background-color: rgb(145, 215, 228);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    border-radius: 20px;
+
+}
+.unol{
+    position: relative;
+    bottom: 10px;
+    right: 15px;
+}
+.container{
+        border: 5px solid darkgreen;
+        height: 270px;
+        width: 1415px;
+        text-align: center;
+        position: absolute;
+        /* left: 315px; */
+        top: 200px;
+        margin: auto;
+        padding: 0px;
+        background-color: rgb(133, 211, 174);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 19px;
+        border-radius: 20px;
+}
+#boxes{
+    display: flex; 
+    justify-content: space-evenly;
+    width: 90%;
+    font-weight: bolder;
+}
+.box1{
+       border: 2px solid green;
+       border-radius: 10px;
+       background-color: aqua;
+       color: rgb(9, 15, 9);
+       position: relative;
+       left: 20px;
+       top: 10px;
+       
+}
+.box2{
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: aqua;
+    color: rgb(9, 15, 9);
+    position: relative;
+    left: 75px;
+    top: 10px;
+    
+}
+.box3{
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: aqua;
+    color: rgb(9, 15, 9);
+    position: relative;
+    left: 130px;
+    top: 10px;
+    
+}
+.box4{
+        border: 2px solid green;
+        border-radius: 10px;
+        background-color: aqua;
+        color: rgb(9, 15, 9);
+        width: 29%;
+        position: relative;
+        left: 500px;
+        top: 12px;
+        font-weight: bolder;
+}
+.heading2{
+    background-image: linear-gradient(to right, red ,yellow  ,red);
+    text-align: center;
+    height: 50px;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+    
+.container2{
+    border: 4px solid rgb(2, 100, 2);
+    height: 300px;
+    width: 1415px;
+    text-align: center;
+    position: absolute;
+    /* left: 315px; */
+    top: 600px;
+    margin: auto;
+    padding: 0px;
+    background-image: radial-gradient(rgb(12, 27, 231),rgb(56, 130, 200),green);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    border-radius: 20px;
+}
+.b{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+.b1{
+    border: 2px solid red;
+    height: 200px;
+    width: 250px;
+    background-color: yellow;
+    border-radius: 20px;
+    color: rgb(102, 45, 22);
+    text-decoration: underline;
+    text-decoration-color: rgb(102, 45, 22);
+
+}
+.b2{
+    border: 2px solid red;
+    height: 200px;
+    width: 250px;
+    background-color: yellow;
+    border-radius: 20px;
+    color: rgb(102, 45, 22);
+    text-decoration: underline;
+    text-decoration-color: rgb(102, 45, 22);
+}
+.b3{
+    border: 2px solid red;
+    height: 200px;
+    width: 250px;
+    background-color: yellow;
+    border-radius: 20px;
+    color: rgb(102, 45, 22);
+    text-decoration: underline;
+    text-decoration-color: rgb(102, 45, 22);
+}
+.b4{
+    border: 2px solid red;
+    height: 200px;
+    width: 250px;
+    background-color: yellow;
+    border-radius: 20px;
+    color: rgb(102, 45, 22);
+    text-decoration: underline;
+    text-decoration-color: ne;
+    text-decoration-color: rgb(102, 45, 22);
+}
+.span{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+.gridcontainer{
+  display: grid;
+  /* background-color: red; */
+  /* border: 1px solid black; */
+  /* height: 500px; */
+  grid-gap: 1rem;
+  grid-template-rows: 1.2fr 2fr 3.5fr 0.7fr;
+  grid-template-columns: 2fr 2fr 2fr 1fr;
+}
+
+.child1{
+    background-color: rgb(219, 81, 81);
+    color: white;
+    font-size: 33px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.child2{
+    background-color: rgb(113, 185, 4);
+    color: white;
+    font-size: 33px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+.child3{
+    background-color: rgb(0, 103, 172);
+    color: white;
+    font-size: 37px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.child4{
+background-color:rgb(182, 63, 182) ;
+color: white;
+font-size: 28px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* text-align: center; */
+}
+.child5{
+    background-color: rgb(44, 42, 42);
+    color: white;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* text-align: center; */
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.child6{
+    background-color: rgb(200, 153, 42);
+    color: white;
+    font-size: 33px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* text-align: center; */
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.child7{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+
+
+
